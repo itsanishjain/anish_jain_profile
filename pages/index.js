@@ -12,8 +12,12 @@ export default function Home() {
         </div>
         <div className="flex justify-center space-x-4 mt-4" >
           <span><a href="https://twitter.com/itsanishjain" target="_blank" rel="noreferrer" >Twitter</a></span>
+
           <span><a href="https://github.com/itsanishjain" target="_blank" rel="noreferrer">Github</a></span>
+
           <span><a href="https://www.youtube.com/channel/UC_k5xjI9j35RyDGQl-MEaQQ" target="_blank" rel="noreferrer">Youtube</a></span>
+
+          <span><a href="/anish_resume.pdf" target="_blank" rel="noreferrer" >Resume</a></span>
         </div>
       </div>
       <div className="mt-8 p-4">
