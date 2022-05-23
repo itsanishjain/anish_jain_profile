@@ -17,7 +17,7 @@ export default function Home() {
 
           <span><a href="https://www.youtube.com/channel/UC_k5xjI9j35RyDGQl-MEaQQ" target="_blank" rel="noreferrer">Youtube</a></span>
 
-          <span><a href="/anish_resume.pdf" target="_blank" rel="noreferrer" >Resume</a></span>
+          <span><a href="/anish_resume_2.pdf" target="_blank" rel="noreferrer" >Resume</a></span>
         </div>
       </div>
       <div className="mt-8 p-4">
