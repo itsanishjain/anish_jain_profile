@@ -10,7 +10,7 @@ const ui = () => {
 
             <div className='mt-16 flex flex-col justify-center items-center space-y-4'>
                 <p className='text-md font-medium text-red-500'>Hello!</p>
-                <p className='text-3xl'>I'm Anish Jain</p>
+                <p className='text-3xl'>I&apos;m Anish Jain</p>
                 <p>Blockend Developer</p>
                 <div className='flex space-x-2'>
                     <button className='rounded-2xl bg-red-700 p-4'>HIRE Me</button>
@@ -28,7 +28,7 @@ const ui = () => {
             <div className='flex flex-col justify-center items-center mt-16 space-y-4 max-w-lg mx-auto'>
                 <p className='text-4xl text-red-500'>About Me</p>
                 <p className='text-center'>
-                    I'm a passionate software engineer specialized in building full stack websites and web applications for individuals and small businesses!
+                    I&apos;m a passionate software engineer specialized in building full stack websites and web applications for individuals and small businesses!
                 </p>
                 {/* <div className='flex flex-col space-y-2'>
                     <div className='flex space-x-2'>
