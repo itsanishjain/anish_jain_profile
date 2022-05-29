@@ -30,52 +30,132 @@ const ui = () => {
                 <p className='text-center'>
                     I&apos;m a passionate software engineer specialized in building full stack websites and web applications for individuals and small businesses!
                 </p>
-                {/* <div className='flex flex-col space-y-2'>
-                    <div className='flex space-x-2'>
-                        <p>Name:</p>
-                        <p>Anish Jain</p>
-                    </div>
-                    <div className='flex space-x-2'>
-                        <p>Location:</p>
-                        <p>Metaverse</p>
-                    </div>
-                    <div className='flex space-x-2'>
-                        <p>Email:</p>
-                        <p>helloanishjain@gmail.com</p>
-                    </div>
-                </div> */}
             </div>
 
             {/* The Process */}
-            <div className='flex flex-col space-y-4 mt-16 justify-center items-center'>
+            <div className='flex flex-col space-y-4 mt-16 items-center'>
                 <p className='text-4xl text-red-500'>The Process</p>
-                <p>It is important for all my clients to know how I can build you a successful web site.</p>
+                <p className='text-center'>It is important for all my clients to know how I can build you a successful web site.</p>
 
                 {/* Card */}
-                <div className='flex space-x-4 p-4 max-w-4xl mx-auto '>
-                    <div className='bg-white text-black rounded-md p-4 space-y-2 '>
-                        <p>Icon</p>
-                        <p>CONSULTATION</p>
-                        <hr />
-                        <p>We begin with talking about what project you want to create.</p>
+
+                {/* <div className='flex flex-col md:flex-row space-y-4 md:space-x-4 p-4 max-w-4xl mx-auto '> */}
+                <div className='max-w-4xl mx-auto grid grid-row-1 gap-8 p-2 md:grid-cols-3 md:gap-4'>
+                    <div className='bg-white text-black 
+                    rounded-md'>
+                        <img src="/tribes.png" />
+                        <div className='p-4 space-y-2 h-full w-full'>
+
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <hr />
+                            <div className='flex justify-between'>
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Live
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Github
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Youtube
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
-                    <div className='bg-white text-black rounded-md p-4 space-y-2 '>
+                    {/* <div className='bg-white text-black rounded-md p-4 space-y-2 '>
                         <p>Icon</p>
                         <p>PROPOSAL</p>
                         <hr />
                         <p>We begin with talking about what project you want to create.</p>
+                    </div> */}
+
+                    <div className='bg-white text-black 
+                    rounded-md'>
+                        <img src="/tribes.png" />
+                        <div className='p-4 space-y-2 h-full w-full'>
+
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <hr />
+                            <div className='flex justify-between'>
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Live
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Github
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Youtube
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
-                    <div className='bg-white text-black rounded-md p-4 space-y-2 '>
+
+
+
+                    {/* <div className='bg-white text-black rounded-md p-4 space-y-2 '>
                         <p>Icon</p>
                         <p>DEVELOPMENT</p>
                         <hr />
                         <p>We begin with talking about what project you want to create.</p>
+                    </div> */}
+
+                    <div className='bg-white text-black 
+                    rounded-md'>
+                        <img src="/tribes.png" />
+                        <div className='p-4 space-y-2 h-full w-full'>
+
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <hr />
+                            <div className='flex justify-between'>
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Live
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Github
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Youtube
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
-                    <div className='bg-white text-black rounded-md p-4 space-y-2 '>
+                    {/* <div className='bg-white text-black rounded-md p-4 space-y-2 '>
                         <p>Icon</p>
                         <p>LAUNCH</p>
                         <hr />
                         <p>We begin with talking about what project you want to create.</p>
+                    </div> */}
+
+                    <div className='bg-white text-black 
+                    rounded-md'>
+                        <img src="/tribes.png" />
+                        <div className='p-4 space-y-2 h-full w-full'>
+
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <hr />
+                            <div className='flex justify-between'>
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Live
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Github
+                                </a>
+
+                                <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
+                                    Youtube
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
