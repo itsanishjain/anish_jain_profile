@@ -13,7 +13,7 @@ const ui = () => {
                 <p className='text-3xl'>I&apos;m Anish Jain</p>
                 <p>Blockend Developer</p>
                 <div className='flex space-x-2'>
-                    <button className='rounded-2xl bg-red-700 p-4'>HIRE Me</button>
+                    <button className='rounded-2xl bg-red-700 p-4'>HIRE ME</button>
                     <button className='rounded-2xl bg-red-700 p-4'>MY WORKS</button>
                 </div>
                 <div className='flex space-x-2'>
