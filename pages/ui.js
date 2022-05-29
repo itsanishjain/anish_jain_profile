@@ -46,7 +46,7 @@ const ui = () => {
                         <img src="/tribes.png" />
                         <div className='p-4 space-y-2 h-full w-full'>
 
-                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology&apos;s hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
                             <hr />
                             <div className='flex justify-between'>
                                 <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
@@ -76,7 +76,7 @@ const ui = () => {
                         <img src="/tribes.png" />
                         <div className='p-4 space-y-2 h-full w-full'>
 
-                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology&apos;s hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
                             <hr />
                             <div className='flex justify-between'>
                                 <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
@@ -109,7 +109,7 @@ const ui = () => {
                         <img src="/tribes.png" />
                         <div className='p-4 space-y-2 h-full w-full'>
 
-                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology&apos;s hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
                             <hr />
                             <div className='flex justify-between'>
                                 <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
@@ -139,7 +139,7 @@ const ui = () => {
                         <img src="/tribes.png" />
                         <div className='p-4 space-y-2 h-full w-full'>
 
-                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology's hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
+                            <p className='font-medium text-gray-500'>Web3-Tribes is a project utilizing the tribes module from Decentology&apos;s hyperverse. The aim of this project is to allow users to join different communities and gain access to content only visible to those in that specific tribe.</p>
                             <hr />
                             <div className='flex justify-between'>
                                 <a className='px-4 py-2 text-sm cursor-pointer duration-100 border-2 border-red-500 rounded-md bg-red-700 text-white'>
