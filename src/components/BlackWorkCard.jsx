@@ -5,7 +5,6 @@ export default function BlackWorkCard() {
         <div className='bg-black text-gray-300 text-lg'>
             <div className='flex justify-between items-center p-8'>
                 <p className='text-2xl font-bold'>Anish</p>
-                <p>Work</p>
             </div>
 
             <div className='mt-8 flex flex-col justify-center items-center space-y-4'>
@@ -14,7 +13,7 @@ export default function BlackWorkCard() {
                 <p>Blockend Developer</p>
                 <div className='flex space-x-2'>
                     <a
-                        href="mail:helloanishjain@gmail.com"
+                        href="mailto: helloanishjain@gmail.com"
                         target="_blank"
                         rel="noreferrer"
                         className='rounded-2xl bg-red-700 p-4'>HIRE ME</a>
@@ -108,7 +107,8 @@ export default function BlackWorkCard() {
             </div>
 
             {/* Contact */}
-            {/* <div className='mt-16 flex flex-col items-center'> */}
+
+            {/* <div className='mt-16 flex flex-col items-center'>
             <p className='text-4xl text-red-500 text-center mt-16'>Contact Me</p>
             <form className='bg-white max-w-lg mx-2 md:mx-auto p-8 rounded-md space-y-4 flex flex-col mt-16'>
                 <input className='border-2 p-2 border-black block text-black rounded-sm' type="text" placeholder='Your Name' />
@@ -117,7 +117,7 @@ export default function BlackWorkCard() {
                 <textarea className='border-2 p-2 border-black block text-black rounded-sm' placeholder='Message' />
                 <button className='rounded-2xl bg-red-700 p-4'>SEND MESSAGE</button>
             </form>
-            {/* </div> */}
+            </div> */}
 
             {/* Footer */}
             <div className='mt-16 text-center pb-6'>
