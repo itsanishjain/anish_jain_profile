@@ -1,8 +1,6 @@
-import Link from 'next/link'
-import React from 'react'
-import { works } from '../src/utils/myWorks'
-
-const ui = () => {
+import { works } from "../utils/myWorks"
+import Link from "next/link"
+export default function BlackWorkCard() {
     return (
         <div className='bg-black text-gray-300 text-lg'>
             <div className='flex justify-between items-center p-8'>
@@ -129,5 +127,3 @@ const ui = () => {
         </div>
     )
 }
-
-export default ui
