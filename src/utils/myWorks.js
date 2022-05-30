@@ -1,5 +1,21 @@
 export const works = [
     {
+        title: "A tool that allows creator to get whitelisting for their upcoming project. We are going to create a slew of tools to assist creators/artists in obtaining the finest possible allowlist for their projects.",
+        img: "/allowlist.png",
+        date: "Jan 2022",
+        liveUrl: "https://www.allowlist.live/",
+        githubUrl: "https://github.com/itsanishjain/allowlist",
+        videoUrl: "https://youtu.be/QssdpvEeokk"
+    },
+    {
+        title: "A tool that helps you to create an NFTs like a PRO  ",
+        img: "/minter.png",
+        date: "Jan 2022",
+        liveUrl: "https://minter-bay.vercel.app/",
+        githubUrl: "https://github.com/itsanishjain/minter"
+
+    },
+    {
         title: "Motive Is to learn more about Solidity and how to connect smart contracts with Frontend like NextJS. And to understand how much we store in the blockchain if you visit this website please try to post a job and see how much we store in the blockchain.",
         img: "/web3jobs.png",
         date: "Jan 2022",
@@ -60,4 +76,6 @@ export const works = [
         githubUrl: "https://github.com/itsanishjain/web3-snakes",
 
     },
+    
+
 ];

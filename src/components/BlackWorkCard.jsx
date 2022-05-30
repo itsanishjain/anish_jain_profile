@@ -106,18 +106,7 @@ export default function BlackWorkCard() {
                 <p>HTML</p>
             </div>
 
-            {/* Contact */}
-
-            {/* <div className='mt-16 flex flex-col items-center'>
-            <p className='text-4xl text-red-500 text-center mt-16'>Contact Me</p>
-            <form className='bg-white max-w-lg mx-2 md:mx-auto p-8 rounded-md space-y-4 flex flex-col mt-16'>
-                <input className='border-2 p-2 border-black block text-black rounded-sm' type="text" placeholder='Your Name' />
-                <input className='border-2 p-2 border-black block text-black rounded-sm' type="email" placeholder='Your Email' />
-                <input className='border-2 p-2 border-black block text-black rounded-sm' type="text" placeholder='Subject' />
-                <textarea className='border-2 p-2 border-black block text-black rounded-sm' placeholder='Message' />
-                <button className='rounded-2xl bg-red-700 p-4'>SEND MESSAGE</button>
-            </form>
-            </div> */}
+    
 
             {/* Footer */}
             <div className='mt-16 text-center pb-6'>
