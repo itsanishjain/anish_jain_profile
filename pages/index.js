@@ -191,13 +191,3 @@ export default function Home({ refUrl }) {
     </>
   );
 }
-
-export const getServerSideProps = async (ctx) => {
-  console.log(ctx.req.headers);
-  console.log(ctx.req.headers.referer);
-  return {
-    props: {
-      refUrl: ctx.req.headers.referer || null,
-    },
-  };
-};
