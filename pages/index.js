@@ -5,9 +5,10 @@ import Image from "next/image";
 import { works } from "../src/utils/myWorks";
 import logo from "../public/logo.png";
 
-export default function Home() {
+export default function Home({ refUrl }) {
   return (
     <>
+      <p className="text-red-500 text-xl">HHH{refUrl}</p>
       <Head>
         <title>Anish</title>
         <meta property="og:title" content="Anish profile website" />
@@ -190,3 +191,13 @@ export default function Home() {
     </>
   );
 }
+
+export const getServerSideProps = async (ctx) => {
+  console.log(ctx.req.headers);
+  console.log(ctx.req.headers.referer);
+  return {
+    props: {
+      refUrl: ctx.req.headers.referer || null,
+    },
+  };
+};
