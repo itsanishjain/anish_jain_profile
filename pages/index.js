@@ -44,8 +44,8 @@ export default function Home() {
 
         <div className="mt-8 flex flex-col justify-center items-center space-y-4">
           <p className="text-md font-medium text-red-500">Namaste</p>
-          <p className="text-2xl">I&apos;m Anish Jain</p>
-          <p className="text-3xl">Full stack blockchain developer</p>
+          <p className="text-lg md:text-2xl text-center">I&apos;m Anish Jain</p>
+          <p className="text-xl md:text-3xl">Full stack blockchain developer</p>
           <div className="flex space-x-2">
             <a
               href="mailto: helloanishjain@gmail.com"

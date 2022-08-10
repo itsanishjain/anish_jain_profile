@@ -15,7 +15,7 @@ export const works = [
   },
   {
     title:
-      "Metaverse platform where you became a “LANDLORD” generate montly rentanls",
+      "Metaverse platform where you became a “LANDLORD” generate montly rentals",
     img: "/lol.jpg",
     date: "Aug 2022",
     liveUrl: "https://lordsofthelands.io/",
