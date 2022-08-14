@@ -1,11 +1,17 @@
+import AOS from "aos";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 import { works } from "../src/utils/myWorks";
 import logo from "../public/logo.png";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Head>
@@ -32,7 +38,7 @@ export default function Home() {
           property="twitter:image"
           content="https://user-images.githubusercontent.com/43033153/183735510-162db748-98e1-43c4-b6a2-8760ce66851b.png"
         />
-        <link rel="icon" href="favicon1.png" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
 
       <div className="bg-[#242424] text-white text-lg">
@@ -128,6 +134,7 @@ export default function Home() {
                 key={index}
                 className="border-2 border-white text-black 
                       rounded-lg p-1"
+                data-aos="fade-up"
               >
                 <img src={work.img} alt="work" />
                 <div className="p-4 space-y-2 h-full w-full">
