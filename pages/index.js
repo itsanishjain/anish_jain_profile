@@ -97,7 +97,7 @@ export default function Home() {
             </span>
 
             <span>
-              <a href="/jain_resume.pdf" target="_blank" rel="noreferrer">
+              <a href="/new_resume.pdf" target="_blank" rel="noreferrer">
                 Resume
               </a>
             </span>

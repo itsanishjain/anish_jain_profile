@@ -15,10 +15,12 @@ export const works = [
   },
   {
     title:
-      "Metaverse platform where you became a “LANDLORD” generate montly rentals",
-    img: "/lol.jpg",
-    date: "Aug 2022",
-    liveUrl: "https://lordsofthelands.io/",
+      "w3commerce Buy togethe, save together, fun together and earn together with us [Winner ETHOnline] for polygon ",
+    img: "/w3comm.png",
+    date: "Sep 2022",
+    liveUrl: "https://w3commerce.vercel.app/",
+    githubUrl: "https://github.com/itsanishjain/W3commerce",
+    videoUrl: "https://www.loom.com/share/e808600ad4684774b505fbf5ce786ac7",
   },
 
   {
