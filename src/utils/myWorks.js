@@ -15,7 +15,7 @@ export const works = [
   },
   {
     title:
-      "w3commerce Buy togethe, save together, fun together and earn together with us [Winner ETHOnline] for polygon ",
+      "w3commerce Buy togethe, save together, fun together and earn together with us [Winner ETHOnline]",
     img: "/w3comm.png",
     date: "Sep 2022",
     liveUrl: "https://w3commerce.vercel.app/",
