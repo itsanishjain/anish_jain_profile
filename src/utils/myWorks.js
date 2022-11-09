@@ -1,38 +1,6 @@
 export const works = [
   {
     title:
-      "3L3phants project is an NFT collection consisting of 7777 unique 3L3s.",
-    img: "/3l3.webp",
-    date: "May 2022",
-    liveUrl: "https://www.3l3phants.io/",
-  },
-  {
-    title:
-      "Kostbar Für immer is a collection of 6,100 utility-powered artifacts that give you membership access to Kostbarworld. Kostbar holders receive access to exclusive drops, experiences, and much more. Visit Kostbarworld.xyz for more details.",
-    img: "https://user-images.githubusercontent.com/43285598/181042743-dbc36e03-f32b-4fcc-aa3b-d5124a2bb320.png",
-    date: "Aug 2022",
-    liveUrl: "https://www.kostbarmint.xyz/",
-  },
-  {
-    title:
-      "w3commerce Buy togethe, save together, fun together and earn together with us [Winner ETHOnline]",
-    img: "/w3comm.png",
-    date: "Sep 2022",
-    liveUrl: "https://w3commerce.vercel.app/",
-    githubUrl: "https://github.com/itsanishjain/W3commerce",
-    videoUrl: "https://www.loom.com/share/e808600ad4684774b505fbf5ce786ac7",
-  },
-
-  {
-    title:
-      "A maketplace for content creators, find the Best Influencers for your Next Campaign in Seconds!",
-    img: "/whizco.png",
-    date: "May 2022",
-    liveUrl: "https://whizco.co/",
-  },
-
-  {
-    title:
       "A tool that allows creator to get whitelisting for their upcoming project. We are going to create a slew of tools to assist creators/artists in obtaining the finest possible allowlist for their projects.",
     img: "/allowlist.png",
     date: "Jan 2022",
@@ -47,6 +15,38 @@ export const works = [
     date: "Jan 2022",
     liveUrl: "https://web3-job-board.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/web3-job-board",
+  },
+
+  {
+    title:
+      "w3commerce Buy togethe, save together, fun together and earn together with us [Winner ETHOnline]",
+    img: "/w3comm.png",
+    date: "Sep 2022",
+    liveUrl: "https://w3commerce.vercel.app/",
+    githubUrl: "https://github.com/itsanishjain/W3commerce",
+    videoUrl: "https://www.loom.com/share/e808600ad4684774b505fbf5ce786ac7",
+  },
+
+  {
+    title: "Ninder - A tinder like applications for NFTs",
+    img: "/ninder.png",
+    date: "NOV 2022",
+    liveUrl: "https://ninder.vercel.app/",
+  },
+
+  {
+    title:
+      "A maketplace for content creators, find the Best Influencers for your Next Campaign in Seconds!",
+    img: "/whizco.png",
+    date: "May 2022",
+    liveUrl: "https://whizco.co/",
+  },
+  {
+    title:
+      "3L3phants project is an NFT collection consisting of 7777 unique 3L3s.",
+    img: "/3l3.webp",
+    date: "May 2022",
+    liveUrl: "https://www.3l3phants.io/",
   },
   {
     title: "A tool that helps you to create an NFTs like a PRO  ",
@@ -116,5 +116,12 @@ export const works = [
     liveUrl: "https://web3-wallet-five.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/web3-wallet",
     videoUrl: "https://www.youtube.com/watch?v=mZMze_g5AkM",
+  },
+  {
+    title:
+      "Kostbar Für immer is a collection of 6,100 utility-powered artifacts that give you membership access to Kostbarworld. Kostbar holders receive access to exclusive drops, experiences, and much more. Visit Kostbarworld.xyz for more details.",
+    img: "https://user-images.githubusercontent.com/43285598/181042743-dbc36e03-f32b-4fcc-aa3b-d5124a2bb320.png",
+    date: "Aug 2022",
+    liveUrl: "https://www.kostbarmint.xyz/",
   },
 ];
