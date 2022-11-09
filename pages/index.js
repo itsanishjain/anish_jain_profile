@@ -98,6 +98,16 @@ export default function Home() {
 
             <span>
               <a
+                href="https://hashnode.com/@itsanishjain"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Blog
+              </a>
+            </span>
+
+            <span>
+              <a
                 href="/AnishJainNewResume.pdf"
                 target="_blank"
                 rel="noreferrer"
