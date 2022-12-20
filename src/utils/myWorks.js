@@ -39,7 +39,7 @@ export const works = [
       "A maketplace for content creators, find the Best Influencers for your Next Campaign in Seconds!",
     img: "/whizco.png",
     date: "May 2022",
-    liveUrl: "https://whizco.co/",
+    liveUrl: "https://www.whizco.in/",
   },
   {
     title:
