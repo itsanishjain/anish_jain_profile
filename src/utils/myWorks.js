@@ -16,6 +16,12 @@ export const works = [
     liveUrl: "https://web3-job-board.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/web3-job-board",
   },
+  {
+    title: "A new way to launch your NFT Ecommerce",
+    img: "/theport.png",
+    date: "Feb 2023",
+    liveUrl: "https://theport.vercel.app/",
+  },
 
   {
     title:
@@ -25,6 +31,14 @@ export const works = [
     liveUrl: "https://w3commerce.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/W3commerce",
     videoUrl: "https://www.loom.com/share/e808600ad4684774b505fbf5ce786ac7",
+  },
+
+  {
+    title:
+      "A design experiment for pro parent website. built using nextjs 13 and using new Image optmization",
+    img: "/proparent.png",
+    date: "March 2023",
+    liveUrl: "https://pro-parents.vercel.app/",
   },
 
   {

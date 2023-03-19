@@ -41,7 +41,7 @@ export default function Home() {
         <link rel="icon" href="favicon.ico" />
       </Head>
 
-      <div className="bg-[#242424] text-white text-lg">
+      <div className="">
         <div className="flex justify-between items-center p-2">
           <p className="text-2xl font-bold">
             <Image src={logo} width={100} height={100} alt="logo" />
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8 flex flex-col justify-center items-center space-y-4">
-          <p className="text-md font-medium text-red-500">Namaste</p>
+          <p className="text-md font-medium ">Namaste</p>
           <p className="text-lg md:text-2xl text-center">I&apos;m Anish Jain</p>
           <p className="text-xl md:text-3xl">Full stack blockchain developer</p>
           <div className="flex space-x-2">
@@ -57,12 +57,12 @@ export default function Home() {
               href="mailto: helloanishjain@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg bg-red-700 p-4"
+              className="btn"
             >
               HIRE ME
             </a>
-            <Link href="#WORK">
-              <a className="rounded-lg bg-red-700 p-4">MY WORKS</a>
+            <Link href="#WORK" legacyBehavior>
+              <a className="btn">MY WORKS</a>
             </Link>
           </div>
           <div className="flex space-x-2">
@@ -121,7 +121,7 @@ export default function Home() {
         {/* ABOUT */}
 
         <div className="flex flex-col justify-center items-center mt-8 space-y-4 max-w-lg mx-auto">
-          <p className="text-4xl text-red-500">About Me</p>
+          <p className="text-4xl ">About Me</p>
           <p className="text-center">
             I&apos;m a passionate software engineer specialized in building full
             stack websites and web applications for individuals and small
@@ -131,7 +131,7 @@ export default function Home() {
 
         {/* The Works */}
         <div id="WORK" className="flex flex-col space-y-4 mt-16 items-center">
-          <p className="text-4xl text-red-500">Works</p>
+          <p className="text-4xl ">Works</p>
           <p className="text-center text-lg">
             It is important for all my clients to know how I can build you a
             successful web site.
@@ -159,7 +159,7 @@ export default function Home() {
                       href={work.liveUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md bg-red-700 text-white"
+                      className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
                     >
                       Live
                     </a>
@@ -169,7 +169,7 @@ export default function Home() {
                         href={work.githubUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md bg-red-700 text-white"
+                        className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
                       >
                         Github
                       </a>
@@ -180,7 +180,7 @@ export default function Home() {
                         href={work.videoUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md bg-red-700 text-white"
+                        className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
                       >
                         Youtube
                       </a>
@@ -194,7 +194,7 @@ export default function Home() {
 
         {/* Skills */}
         <div className="mt-16 flex flex-col items-center space-y-4">
-          <p className="text-4xl text-red-500">Skills</p>
+          <p className="text-4xl ">Skills</p>
           <p>JavaScript</p>
           <p>SOLIDITY</p>
           <p>NEXTJS</p>
