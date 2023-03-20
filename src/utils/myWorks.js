@@ -17,13 +17,6 @@ export const works = [
     githubUrl: "https://github.com/itsanishjain/web3-job-board",
   },
   {
-    title: "A new way to launch your NFT Ecommerce",
-    img: "/theport.png",
-    date: "Feb 2023",
-    liveUrl: "https://theport.vercel.app/",
-  },
-
-  {
     title:
       "w3commerce Buy togethe, save together, fun together and earn together with us [Winner ETHOnline]",
     img: "/w3comm.png",
