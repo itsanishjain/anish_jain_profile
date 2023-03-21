@@ -27,14 +27,6 @@ export const works = [
   },
 
   {
-    title:
-      "A design experiment for pro parent website. built using nextjs 13 and using new Image optmization",
-    img: "/proparent.png",
-    date: "March 2023",
-    liveUrl: "https://pro-parents.vercel.app/",
-  },
-
-  {
     title: "Ninder - A tinder like applications for NFTs",
     img: "/ninder.png",
     date: "NOV 2022",
