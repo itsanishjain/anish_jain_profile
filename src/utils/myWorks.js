@@ -158,7 +158,7 @@ export const works = [
   {
     title:
       "Clinic Management Software - An in-house tool for clinics to manage patient records, appointments, follow-ups, billing, and insights.",
-    img: "http://theimplantdentists.com/static/img/core-img/logo1.jpg",
+    img: "https://user-images.githubusercontent.com/43033153/234097735-ac1f9cdd-aecb-492a-9f0b-14d61e135b65.jpg",
     date: "June 2021",
     liveUrl: "http://theimplantdentists.com/",
     type: "Freelance",
