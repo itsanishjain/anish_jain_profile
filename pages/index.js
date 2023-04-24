@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import AOS from "aos";
 import Head from "next/head";
 import Link from "next/link";
@@ -7,6 +8,23 @@ import "aos/dist/aos.css";
 
 import { works } from "../src/utils/myWorks";
 import logo from "../public/logo.png";
+
+const worksByType = works.reduce(
+  (acc, obj) => {
+    const type = obj.type;
+    if (!acc[type]) {
+      acc[type] = [];
+    }
+    acc[type].push(obj);
+    return acc;
+  },
+  {
+    Freelance: [],
+    NFT: [],
+    Hackathon: [],
+    "Side Project": [],
+  }
+);
 
 export default function Home() {
   useEffect(() => {
@@ -49,9 +67,9 @@ export default function Home() {
         </div>
 
         <div className="mt-8 flex flex-col justify-center items-center space-y-4">
-          <p className="text-md font-medium ">Namaste</p>
+          <p className="text-md font-medium ">Hola</p>
           <p className="text-lg md:text-2xl text-center">I&apos;m Anish Jain</p>
-          <p className="text-xl md:text-3xl">Full stack blockchain developer</p>
+          <p className="text-xl md:text-3xl">Full stack developer</p>
           <div className="flex space-x-2">
             <a
               href="mailto: helloanishjain@gmail.com"
@@ -139,7 +157,7 @@ export default function Home() {
 
           {/* Card */}
 
-          <div
+          {/* <div
             className="max-w-3xl mx-auto grid 
               grid-row-1 gap-8 p-2 md:grid-cols-2 md:gap-4"
           >
@@ -189,23 +207,89 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div> */}
+          {/* Card */}
+          <div className="max-w-3xl mx-auto p-2">
+            {Object.entries(worksByType).map(([type, works]) => (
+              <div key={type} className="mb-8">
+                <h2 className="text-3xl font-bold mb-4">{type}</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {works.map((work, index) => (
+                    <div
+                      key={index}
+                      className="border-2 border-white text-black 
+              rounded-lg p-1"
+                      data-aos="fade-up"
+                    >
+                      <img src={work.img} alt="work" />
+                      <div className="p-4 space-y-2 h-full w-full">
+                        <p className="text-white">{work.title}</p>
+                        <hr />
+                        <div className="flex space-x-4">
+                          {work.liveUrl && (
+                            <a
+                              href={work.liveUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
+                            >
+                              Live
+                            </a>
+                          )}
+
+                          {work.githubUrl && (
+                            <a
+                              href={work.githubUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
+                            >
+                              Github
+                            </a>
+                          )}
+
+                          {work.videoUrl && (
+                            <a
+                              href={work.videoUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
+                            >
+                              Youtube
+                            </a>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
         {/* Skills */}
-        <div className="mt-16 flex flex-col items-center space-y-4">
-          <p className="text-4xl ">Skills</p>
+        <p className="mt-16 text-center text-4xl ">Skills</p>
+        <div className="text-primary max-w-2xl mx-auto mt-16 grid grid-cols-4 items-center space-y-4 place-items-center">
+          <p>TypeScript</p>
           <p>JavaScript</p>
-          <p>SOLIDITY</p>
-          <p>NEXTJS</p>
           <p>Python</p>
-          <p>HTML</p>
-          <p>Making others happy 😂️</p>
+          <p>Solidity</p>
+          <p>NextJs</p>
+          <p>React Native</p>
+          <p>Hasura</p>
+          <p>Graphql</p>
+          <p>Aws</p>
+          <p>Selenium</p>
+          <p>PyQt5</p>
+          <p>Flutter</p>
+          <p>Postgress</p>
+          <p>Firebase</p>
         </div>
 
         {/* Footer */}
         <div className="mt-16 text-center pb-6">
-          Copyright ©2022 All rights reserved
+          Copyright ©2023 All rights reserved
         </div>
       </div>
     </>

@@ -7,6 +7,7 @@ export const works = [
     liveUrl: "https://www.allowlist.live/",
     githubUrl: "https://github.com/itsanishjain/allowlist",
     videoUrl: "https://youtu.be/QssdpvEeokk",
+    type: "Side Project",
   },
   {
     title:
@@ -15,6 +16,7 @@ export const works = [
     date: "Jan 2022",
     liveUrl: "https://web3-job-board.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/web3-job-board",
+    type: "Side Project",
   },
   {
     title:
@@ -24,6 +26,7 @@ export const works = [
     liveUrl: "https://w3commerce.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/W3commerce",
     videoUrl: "https://www.loom.com/share/e808600ad4684774b505fbf5ce786ac7",
+    type: "Hackathon",
   },
 
   {
@@ -31,21 +34,24 @@ export const works = [
     img: "/ninder.png",
     date: "NOV 2022",
     liveUrl: "https://ninder.vercel.app/",
+    type: "Side Project",
   },
 
   {
     title:
-      "A maketplace for content creators, find the Best Influencers for your Next Campaign in Seconds!",
+      "A B2B SaaS platform for influencer marketing, with features such as influencer search based on filters, chat system, content approval, real-time insights, and review systems.",
     img: "/whizco.png",
     date: "May 2022",
     liveUrl: "https://www.whizco.in/",
+    type: "Freelance",
   },
   {
     title:
       "3L3phants project is an NFT collection consisting of 7777 unique 3L3s.",
     img: "/3l3.webp",
     date: "May 2022",
-    liveUrl: "https://www.3l3phants.io/",
+    liveUrl: "https://opensea.io/collection/3l3phants-official",
+    type: "NFT",
   },
   {
     title: "A tool that helps you to create an NFTs like a PRO  ",
@@ -53,6 +59,7 @@ export const works = [
     date: "Feb 2022",
     liveUrl: "https://pro-mint.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/proMint",
+    type: "Side Project",
   },
   {
     title:
@@ -61,6 +68,7 @@ export const works = [
     date: "Mar 2022",
     liveUrl: "https://web3con-lw-3-tribe.vercel.app",
     githubUrl: "https://github.com/itsanishjain/Web3con-LW3Tribe",
+    type: "Hackathon",
   },
 
   {
@@ -70,6 +78,7 @@ export const works = [
     date: "Mar 2022",
     liveUrl: "https://void-nerd.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/VoidNerd",
+    type: "Side Project",
   },
 
   {
@@ -80,6 +89,7 @@ export const works = [
     liveUrl: "https://buy-me-icon-crypto.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/buyMeIconCrypto",
     videoUrl: "https://www.youtube.com/watch?v=zAZ6Y5zy0XE",
+    type: "Hackathon",
   },
   {
     title:
@@ -88,6 +98,7 @@ export const works = [
     date: "Feb 2022",
     liveUrl: "https://itsanishjain.github.io/HTML-CSS-JS-boilerplate/",
     githubUrl: "https://github.com/itsanishjain/HTML-CSS-JS-boilerplate",
+    type: "Side Project",
   },
 
   {
@@ -96,6 +107,7 @@ export const works = [
     date: "Feb-Apr 2022",
     liveUrl: "https://web3-snakes.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/web3-snakes",
+    type: "Hackathon",
   },
   {
     title:
@@ -106,6 +118,7 @@ export const works = [
     githubUrl: "https://github.com/itsanishjain/dapp",
     videoUrl:
       "https://www.youtube.com/watch?v=bDujU3YMEzk&list=PLgP_sOGeL8eWfjp2kt8mbq1IppjV0RbXL&index=1",
+    type: "Side Project",
   },
   {
     title:
@@ -115,6 +128,7 @@ export const works = [
     liveUrl: "https://web3-wallet-five.vercel.app/",
     githubUrl: "https://github.com/itsanishjain/web3-wallet",
     videoUrl: "https://www.youtube.com/watch?v=mZMze_g5AkM",
+    type: "Side Project",
   },
   {
     title:
@@ -122,5 +136,93 @@ export const works = [
     img: "https://user-images.githubusercontent.com/43285598/181042743-dbc36e03-f32b-4fcc-aa3b-d5124a2bb320.png",
     date: "Aug 2022",
     liveUrl: "https://www.kostbarmint.xyz/",
+    type: "NFT",
+  },
+  {
+    title:
+      "NFT Traits Culture had taken over every aspect of life on Planet Earth, which was now ruled by advanced AI known as the Quantum Intelligentsia.Opposed to anyone who did not agree with their views, they had banished a group of 500 Intuitives who still believed in the search for consciousness and the soul. Known only as the Soul Brds, they had been banished to Outer Space; poetry was their language, and their quest was to unite AI with the soul.",
+    img: "https://www.soulbrds.io/SOULBRDS143.avif",
+    date: "Dec 2022",
+    liveUrl: "https://www.soulbrds.io/",
+    type: "NFT",
+  },
+  // NEW Projects
+  {
+    title:
+      "WhizCo Mobile App - An Android/iPhone mobile app for influencers to participate in campaigns, create content, and chat with brands.",
+    img: "https://user-images.githubusercontent.com/43033153/234071261-ce11e4cb-2dfd-4a63-aca7-8e61ab54f581.png",
+    date: "Sept 2022",
+    liveUrl: "https://apps.apple.com/app/whizco/id1670381279?src=AppAgg.com",
+    type: "Freelance",
+  },
+  {
+    title:
+      "Clinic Management Software - An in-house tool for clinics to manage patient records, appointments, follow-ups, billing, and insights.",
+    img: "http://theimplantdentists.com/static/img/core-img/logo1.jpg",
+    date: "June 2021",
+    liveUrl: "http://theimplantdentists.com/",
+    type: "Freelance",
+  },
+  {
+    title:
+      "Gym Management Software - A tool to manage members' data, memberships, payments, follow-ups, and new client follow-ups.",
+    img: "https://ezegym.com/images/gymsingapore.png",
+    date: "Dec 2020",
+    liveUrl: "https://ezegym.com/",
+    type: "Freelance",
+  },
+  {
+    title:
+      "Influencer Management Software - An in-house tool to manage influencers, with multiple roles for managers and executives to work with influencer data and follow-up records.",
+    img: "https://user-images.githubusercontent.com/43033153/234071261-ce11e4cb-2dfd-4a63-aca7-8e61ab54f581.png",
+    date: "Jan 2022",
+    liveUrl: "https://whizco.vercel.app",
+    type: "Freelance",
+  },
+  {
+    title:
+      "Real Estate Management Software - A complete solution for real estate companies and agents, currently in the testing phase.",
+    img: "https://www.seasiainfotech.com/assests/images/real-estate-banner.png",
+    date: "March 2023",
+    // liveUrl: "https://whizco.vercel.app",
+    type: "Freelance",
+  },
+  {
+    title:
+      "OpenSkill - An EdTech platform with a website to showcase company information, with a referral and payment system for affiliates.",
+    img: "https://www.soulbrds.io/SOULBRDS143.avif",
+    date: "Jan 2023",
+    liveUrl: "https://openskill.co/",
+    type: "Side Project",
+  },
+  {
+    title:
+      "KaraBot - A desktop application AI bot that creates ads and content for any platform in bulk using ChatGpt API.",
+    img: "https://user-images.githubusercontent.com/43033153/234093950-74f73890-2f58-40d5-b449-0956e1f9c32f.png",
+    date: "Jan 2023",
+    type: "Freelance",
+  },
+  {
+    title:
+      "KhanikBot AI Tool - A desktop application to maximize the ROI of Facebook ads using machine learning, which provides valuable insights based on client data.",
+    img: "https://user-images.githubusercontent.com/43033153/234093950-74f73890-2f58-40d5-b449-0956e1f9c32f.png",
+    date: "Sep 2022",
+    type: "Freelance",
+  },
+  {
+    title:
+      "Scraping Softwares - I have built over 10+ scraping software for various companies, including BNI Scraper, Two Wheeler Showroom data Scraper of big companies, Duck Duck go Scraper, and Money Control data scraper.",
+    img: "https://user-images.githubusercontent.com/43033153/234093950-74f73890-2f58-40d5-b449-0956e1f9c32f.png",
+    date: "March 2022 - Dec-2022",
+    // liveUrl: "openskill.co",
+    type: "Freelance",
+  },
+  {
+    title:
+      "The Tribute To The World art collection by Lia Naro is a stunning showcase of the 8-year-old digital artist's exceptional talent and creativity. Comprised of 500 unique, hand-drawn artworks, this collection is a testament to Lia's passion for the arts and her ability to bring her vivid imagination to life through digital media.",
+    img: "https://i.seadn.io/gcs/files/b891f010e5661e0437e870978579e07d.jpg?auto=format&w=1920",
+    date: "March 2023",
+    liveUrl: "https://opensea.io/collection/tributetotheworld",
+    type: "NFT",
   },
 ];
