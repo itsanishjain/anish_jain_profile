@@ -235,11 +235,6 @@ export default function Home() {
         </div>
 
         {/* Things I believe in */}
-        <div>
-          <p>Some things I believe</p>
-          <p>Slow is fake</p>
-          <p>The easy way is the hard way and hard way is the easy way</p>
-        </div>
 
         {/* Footer */}
         <div className="mt-16 text-center pb-6">
