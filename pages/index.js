@@ -67,8 +67,8 @@ export default function Home() {
         </div>
 
         <div className="mt-8 flex flex-col justify-center items-center space-y-4">
-          <p className="text-md font-medium ">Hola</p>
-          <p className="text-lg md:text-2xl text-center">I&apos;m Anish Jain</p>
+          <p className="text-md font-medium ">Hey, I&apos;m Anish Jain</p>
+          {/* <p className="text-lg md:text-2xl text-center"></p> */}
           <p className="text-xl md:text-3xl">Full stack developer</p>
           <div className="flex space-x-2">
             <a
@@ -156,59 +156,6 @@ export default function Home() {
           </p>
 
           {/* Card */}
-
-          {/* <div
-            className="max-w-3xl mx-auto grid 
-              grid-row-1 gap-8 p-2 md:grid-cols-2 md:gap-4"
-          >
-            {works.map((work, index) => (
-              <div
-                key={index}
-                className="border-2 border-white text-black 
-                      rounded-lg p-1"
-                data-aos="fade-up"
-              >
-                <img src={work.img} alt="work" />
-                <div className="p-4 space-y-2 h-full w-full">
-                  <p className="text-white">{work.title}</p>
-                  <hr />
-                  <div className="flex space-x-4">
-                    <a
-                      href={work.liveUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
-                    >
-                      Live
-                    </a>
-
-                    {work.githubUrl && (
-                      <a
-                        href={work.githubUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
-                      >
-                        Github
-                      </a>
-                    )}
-
-                    {work.videoUrl && (
-                      <a
-                        href={work.videoUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="px-4 py-2 text-sm cursor-pointer duration-100  rounded-md btn btn-primary text-white"
-                      >
-                        Youtube
-                      </a>
-                    )}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div> */}
-          {/* Card */}
           <div className="max-w-3xl mx-auto p-2">
             {Object.entries(worksByType).map(([type, works]) => (
               <div key={type} className="mb-8">
@@ -270,7 +217,7 @@ export default function Home() {
 
         {/* Skills */}
         <p className="mt-16 text-center text-4xl ">Skills</p>
-        <div className="text-primary max-w-2xl mx-auto mt-16 grid grid-cols-4 items-center space-y-4 place-items-center">
+        <div className="text-primary max-w-2xl mx-auto mt-16 grid grid-cols-4 items-center place-items-center gap-4">
           <p>TypeScript</p>
           <p>JavaScript</p>
           <p>Python</p>
@@ -285,6 +232,13 @@ export default function Home() {
           <p>Flutter</p>
           <p>Postgress</p>
           <p>Firebase</p>
+        </div>
+
+        {/* Things I believe in */}
+        <div>
+          <p>Some things I believe</p>
+          <p>Slow is fake</p>
+          <p>The easy way is the hard way and hard way is the easy way</p>
         </div>
 
         {/* Footer */}
