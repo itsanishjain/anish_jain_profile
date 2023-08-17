@@ -183,8 +183,8 @@ export const works = [
     title:
       "Real Estate Management Software - A complete solution for real estate companies and agents, currently in the testing phase.",
     img: "https://www.seasiainfotech.com/assests/images/real-estate-banner.png",
-    date: "March 2023",
-    // liveUrl: "https://whizco.vercel.app",
+    date: "June 2023",
+    liveUrl: "https://managemybhoomi.com/",
     type: "Freelance",
   },
   {
