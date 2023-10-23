@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 import { works } from "../src/utils/myWorks";
 import logo from "../public/logo.png";
+import Script from "next/script";
 
 const worksByType = works.reduce(
   (acc, obj) => {
@@ -33,6 +34,17 @@ export default function Home() {
   return (
     <>
       <Head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZCDLMWMT37" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-ZCDLMWMT37');
+        `}
+        </Script>
+
         <title>Anish</title>
         <meta property="og:title" content="Anish profile website" />
         <meta
