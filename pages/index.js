@@ -34,17 +34,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZCDLMWMT37" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-ZCDLMWMT37');
-        `}
-        </Script>
-
         <title>Anish</title>
         <meta property="og:title" content="Anish profile website" />
         <meta
@@ -70,6 +59,16 @@ export default function Home() {
         />
         <link rel="icon" href="favicon.ico" />
       </Head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZCDLMWMT37" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-ZCDLMWMT37');
+        `}
+      </Script>
 
       <div className="">
         <div className="flex justify-between items-center p-2">
